@@ -1,0 +1,185 @@
+/* hero config */
+.hero {
+    margin-top: 5rem;
+    background-color: #161513;
+    margin-bottom: 6rem;
+    margin-inline: auto;
+}
+/* hero wrapper */
+.hero_wrapper {
+    width: 42rem;
+    margin-inline: auto;
+}
+/* title and img container */
+.hero__img-container {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+/* img container */
+.hero__img-box {
+    width: 15rem;
+    height: 13rem;
+    margin-inline: auto;
+    /* background-color: gray; */
+    border-radius: px;
+    margin-bottom: 2rem;
+}
+/* title hero */
+.hero__title {
+    margin-top: 1rem;
+    font-size: 3.2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 0.01em;
+}
+.lienar__title {
+    background: #FFA500;
+    background: linear-gradient(to right, #FFA500 0%, #5B29CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero__description {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #c5c5c57c;
+    line-height: 1.5rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 2rem auto;
+    max-width: 50ch;
+    /* margin-inline: auto; */
+}
+.hero__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.hero__btn {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    border-radius: 55px;
+    border: none;
+}
+.hero__btn2 {
+    color: #ccc;
+    background-color: #161513;
+    border: 2px solid #ccc;
+}
+.hero__experience-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #C5C5C5;
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.1rem;
+}
+.hero__experience-logocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+@media (max-width: 1280px) {
+    .hero__img-box {
+        width: 13rem;
+        height: 12rem;
+    }
+    .hero__title {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+    .hero__description {
+        font-size: 0.9rem;
+    }
+    .hero__btn {
+        font-size: 1.1rem;
+    }
+    .hero__experience-title {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 1024px) {
+    .hero__img-box {
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 0.5rem;
+    }
+    .hero__title {
+        margin-top: 0.5rem;
+        font-size: 2.5rem;
+    }
+    .hero__description {
+        font-size: 0.9rem;
+        margin: 1.5rem auto;
+    }
+    .hero__btn {
+        font-size: 1rem;
+    }
+    .hero__experience-title {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .hero__img-box {
+        width: 10rem;
+        height: 10rem;
+        margin-bottom: 0.5rem;
+    }
+    .hero__title {
+        margin-top: 0.5rem;
+        font-size: 2rem;
+    }
+    .hero__description {
+        font-size: 0.8rem;
+        margin: 1rem auto;
+    }
+    .hero__btn {
+        font-size: 1rem;
+    }
+    .hero__experience-title {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 640px) {
+    .header_menu {
+        display: none;
+    }
+    .header_logo {
+        display: none;
+    }
+    .humberger {
+        display: block;
+        align-self: center;
+    }
+    .hero__description {
+        font-size: 0.7rem;
+        margin: 1rem auto;
+    }
+    .hero__btn {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 320px) {
+    .hero__title {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+    .hero__description {
+        font-size: 0.6rem;
+        margin: 1.5rem auto;
+    }
+    .hero__btn {
+        font-size: 0.8rem;
+    }
+    .hero__experience-title {
+        font-size: 0.8rem;
+    }
+}

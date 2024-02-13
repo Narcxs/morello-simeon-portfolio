@@ -1,0 +1,106 @@
+footer {
+    background-color: #191919;
+    height: 26rem;
+    padding: 5rem 0;
+}
+.footer__container { 
+    width: 90%;
+    margin-inline: auto;
+}
+.footer__title {
+    font-size: 1.4rem;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+}
+.footer_description {
+    font-size: 1rem;
+    max-width: 70ch;
+    color: #C5C5C5;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+.footer__mail {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.footer__mail a {
+    font-size: 1rem;
+    color: #C5C5C5;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer__social-logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media (max-width: 1280px) {
+    .footer__title {
+        font-size: 1.2rem;
+    }
+    .footer_description {
+        font-size: 0.9rem;
+    }
+    .footer__mail a {
+        font-size: 0.9rem;
+    }
+
+}
+@media (max-width: 1024px) {
+    .footer__title {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .footer_description {
+        font-size: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+    .footer__mail a {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 768px) {
+    .footer__title {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+    .footer_description {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .footer__mail a {
+        font-size: 0.8rem;
+    }
+    footer {
+        padding: 3rem 0;
+        height: 20rem;
+    }
+}
+@media (max-width: 640px) {
+    .footer_description {
+        font-size: 0.7rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+    .footer__mail a {
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 320px) {
+    .footer_description {
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+    .footer__mail a {
+        font-size: 0.6rem;
+    }
+}
+
+

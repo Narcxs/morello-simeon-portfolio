@@ -1,0 +1,106 @@
+.projects__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(92deg, #FF8008 35%, #F9A14E 55%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+.projects__card-container {
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    margin-bottom: 15rem;
+}
+.projectscard {
+    width: 300px;
+    height: 250px;
+    background-color: gray;
+    border-radius: 20px;
+    background-color: #2A2A2A;
+    box-shadow: 0 0 12px 1px rgba(128, 128, 128, 0.11);
+}
+.pcard1 {
+
+    min-width: 100px;
+}
+.pcard2 {
+    min-width: 100px;
+}
+.card-imgcont {
+    
+    width: 100%;
+    height: auto;
+}
+.card-description {
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-description a {
+    color: #C5C5C5;
+    font-size: 0.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card-description h2 {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+@media (max-width: 1280px) {
+    .projects__card-container {
+        margin-bottom: 10rem;
+    }
+}
+@media (max-width: 1024px) {
+    .projects__title {
+        font-size: 2rem;
+    }
+    .card__items1 h2 {
+        font-size: 1rem;
+    }
+    .projects__card-container {
+        margin-bottom: 14rem;
+    }
+}
+@media (max-width: 768px) {
+    .projects__title {
+        font-size: 1.6rem;
+    }
+    .card__items1 h2 {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 475px) {
+    .projects__title {
+        font-size: 1.4rem;
+    }
+    .card__items1 a {
+        font-size: 0.5rem;
+    }
+    .card__items1 h2 {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+    .projectscard {
+        width: 300px;
+        height: 215px;
+    }
+}

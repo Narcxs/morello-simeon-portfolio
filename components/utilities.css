@@ -1,0 +1,57 @@
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+
+/* md */
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+    }
+}
